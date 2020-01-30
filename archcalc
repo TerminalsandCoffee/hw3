@@ -247,7 +247,7 @@ void Cirlce() {
 		
 		if(radius_of_circle < 0) {
 			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
+			cout << "you need help with your math skills my friend" << endl;
 			
 			} else {
 				
@@ -314,7 +314,7 @@ int main() {
 					
 					cout << endl;
 				
-					cout << "ERROR ALERT!! We have a code ID10T! Please contact your superior for further analysis on your mental well being. I repeat ERROR ALERT!! We have a code ID10T!" << endl;
+					cout << "ERROR ALERT!!" << endl;
 				
 					cout << endl;
 
@@ -361,7 +361,7 @@ int main() {
 					
 					cout << endl;
 					
-					cout << "ERROR ALERT!! We have a code ID10T! Please contact your superior for further analysis on your mental well being. I repeat ERROR ALERT!! We have a code ID10T!" << endl;
+					cout << "ERROR ALERT!!" << endl;
 					
 					cout << endl;
 					
