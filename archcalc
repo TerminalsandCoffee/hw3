@@ -27,7 +27,7 @@ string i_am_a_foot = " ft";
 string i_am_a_yard = " yd";
 string i_am_a_mile_long_gone = " mi";
 
-int user_input_measurements = 4;
+int user_input_measurements = 1;
 
 void Rectangle() {
 	
@@ -38,10 +38,6 @@ void Rectangle() {
 	cout << "Please enter the length > "; cin >> length_of_rectangle;
 
 	cout << "Please enter the width > "; cin >> width_of_rectangle;
-	cout << endl;
-
-	cout << "Please select a unit of measurement > ";
-	cin >> user_input_measurements;
 	cout << endl;
 	
 	if (user_input_measurements == 1) {
@@ -59,51 +55,6 @@ void Rectangle() {
 				cout << "Area = " << area_of_rectangle << "sq" << i_am_an_inch << endl;
 			}
 
-	
-	} else if (user_input_measurements == 2) {
-		
-		if(length_of_rectangle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_rectangle = length_of_rectangle * width_of_rectangle;
-				
-				cout << setprecision(2) << fixed << showpoint;
-				
-				cout << "Area = " << area_of_rectangle << "sq" << i_am_a_foot << endl;
-			}
-	
-	} else if (user_input_measurements == 3) {
-		
-		if(length_of_rectangle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_rectangle = length_of_rectangle * width_of_rectangle;
-				
-				cout << setprecision(2) << fixed << showpoint;
-
-				cout << "Area = " << area_of_rectangle << "sq" << i_am_a_yard << endl;
-			}
-	
-	} else {
-		
-		if(length_of_rectangle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_rectangle = length_of_rectangle * width_of_rectangle;
-				
-				cout << setprecision(2) << fixed << showpoint;
-				
-				cout << "Area = " << area_of_rectangle << "sq" << i_am_a_mile_long_gone << endl;
-			}
 	}
 }
 
@@ -119,9 +70,6 @@ void Triangle() {
 	cout << "Please enter the height > "; cin >> height_of_triangle;
 	cout << endl;
 
-	cout << "Please select a unit of measurement > "; cin >> user_input_measurements;
-	cout << endl;
-	
 	if(user_input_measurements == 1) {
 		
 		if(height_of_triangle < 0) {
@@ -135,51 +83,6 @@ void Triangle() {
 				cout << setprecision(2) << fixed << showpoint;
 				
 				cout << "Area = " << area_of_triangle << " sq" << i_am_an_inch << endl;
-			}
-	
-	} else if(user_input_measurements == 2) {
-		
-		if(height_of_triangle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_triangle = (height_of_triangle * base_of_triangle) / 2;
-				
-				cout << setprecision(2) << fixed << showpoint;
-				
-				cout << "Area = " << area_of_triangle << " sq" << i_am_a_foot << endl;
-			}
-	
-	} else if(user_input_measurements == 3) {
-		
-		if(height_of_triangle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_triangle = (height_of_triangle * base_of_triangle) / 2;
-				
-				cout << setprecision(2) << fixed << showpoint;
-				
-				cout << "Area = " << area_of_triangle << " sq" << i_am_a_yard << endl;
-			}
-	
-	} else {
-		
-		if(height_of_triangle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_triangle = (height_of_triangle * base_of_triangle) / 2;
-				
-				cout << setprecision(2) << fixed << showpoint;
-				
-				cout << "Area = " << area_of_triangle << " sq" << i_am_a_mile_long_gone << endl;
 			}
 	}
 }
@@ -195,9 +98,6 @@ void Cirlce() {
 	cout << "Please enter the radius > "; cin >> radius_of_circle;
 	cout << endl;
 
-	cout << "Please select a unit of measurement > "; cin >> user_input_measurements;
-	cout << endl;
-	
 	if(user_input_measurements == 1) {
 		
 		if(radius_of_circle < 0) {
@@ -211,51 +111,6 @@ void Cirlce() {
 				cout << setprecision(2) << fixed << showpoint;
 				
 				cout << "Area = " << area_of_circle << "sq" << i_am_an_inch << endl;
-			}
-	
-	} else if(user_input_measurements == 2) {
-		
-		if(radius_of_circle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_circle = PI * radius_of_circle * radius_of_circle;
-				
-				cout << setprecision(2) << fixed << showpoint;
-
-				cout << "Area = " << area_of_circle << "sq" << i_am_a_foot << endl;
-			}
-	
-	} else if(user_input_measurements == 3) {
-		
-		if(radius_of_circle < 0) {
-			
-			cout << "Godspeed, you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_circle = PI * radius_of_circle * radius_of_circle;
-				
-				cout << setprecision(2) << fixed << showpoint;
-				
-				cout << "Area = " << area_of_circle << " sq" << i_am_a_yard << endl;
-			}
-	
-	} else {
-		
-		if(radius_of_circle < 0) {
-			
-			cout << "you need help with your math skills my friend" << endl;
-			
-			} else {
-				
-				area_of_circle = PI * radius_of_circle * radius_of_circle;
-				
-				cout << setprecision(2) << fixed << showpoint;
-				
-				cout << "Area = " << area_of_circle << " sq" << i_am_a_mile_long_gone << endl;
 			}
 	}
 }
@@ -280,13 +135,6 @@ int main() {
   bool isUserTryingAgain = true;
 	char do_i_go_on;
 	
-	//Unit of measurement
-	cout << "Unit of measurements:" << endl;
-	cout << "*********************" << endl;
-	cout << "1." << i_am_an_inch << endl;
-	cout << "2." << i_am_a_foot<< endl;
-	cout << "3." << i_am_a_yard << endl;
-	cout << "4." << i_am_a_mile_long_gone << endl << endl << endl << endl;
 	
 	//Asking the user
 	cout << "Please enter a menu item (1-4) > ";
@@ -314,7 +162,7 @@ int main() {
 					
 					cout << endl;
 				
-					cout << "ERROR ALERT!!" << endl;
+					cout << "ERROR!!" << endl;
 				
 					cout << endl;
 
@@ -361,7 +209,7 @@ int main() {
 					
 					cout << endl;
 					
-					cout << "ERROR ALERT!!" << endl;
+					cout << "ERROR !!" << endl;
 					
 					cout << endl;
 					
@@ -409,7 +257,7 @@ int main() {
 					
 					cout << endl;
 					
-					cout << "ERROR ALERT!! We have a code ID10T! Please contact your superior for further analysis on your mental well being. I repeat ERROR ALERT!! We have a code ID10T!" << endl;
+					cout << "ERROR !!" << endl;
 					
 					cout << endl;
 					
@@ -462,7 +310,7 @@ int main() {
 					
 					cout << endl;
 					
-					cout << "ERROR ALERT!! << endl;
+					cout << "ERROR !!" << endl;
 					
 					cout << endl;
 					cout << "Do you wish to continue?" << endl;
@@ -492,5 +340,4 @@ int main() {
 		  }
 		}
   }
-
 
